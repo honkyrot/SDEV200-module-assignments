@@ -14,7 +14,7 @@ public class FeetToMeterCoversion {
         System.out.println("-----------------------|--------------------------------");
 
         // the decimal format to make it readable
-        DecimalFormat df = new DecimalFormat("#.#####");
+        DecimalFormat df = new DecimalFormat("#.###");
 
         for (int i = 0; i < feet_values.length; i++) {
             double feet = feet_values[i];
