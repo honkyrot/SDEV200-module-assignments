@@ -17,7 +17,13 @@ public class CCValidator {
         try {
             card_number = user_input.nextLong();
         } catch (Exception e) {
-            System.out.println("invalid input");
+            System.out.println("invalid input (not a number)");
+            user_input.close();
+            return; // exit the program if input is invalid
+        }
+
+        if (getSize(card_number) != 16) {
+            System.out.println("invalid input (too long)");
             user_input.close();
             return; // exit the program if input is invalid
         }
@@ -30,11 +36,6 @@ public class CCValidator {
         } else {
             System.out.println("ts not valid");
         }
-
-        // do the other methods
-
-        System.out.println("# of digits is: " + getSize(card_number));
-        System.out.println("prefix is: " + getPrefix(card_number, 1));
     }
 
     // Return true if the card number is valid
