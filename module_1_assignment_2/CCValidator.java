@@ -1,3 +1,7 @@
+// 08-29-2025
+// hong rot, sdev200
+// MODULE 1, ASSIGNMENT 2
+
 package module_1_assignment_2;
 
 import java.util.Scanner;
