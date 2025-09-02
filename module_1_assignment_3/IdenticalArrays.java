@@ -20,8 +20,8 @@ public class IdenticalArrays {
                 int[][] dummy_array = new int[3][3];
 
                 // handle input
-                for (int i = 0; i < dummy_array.length; i++) {
-                    for (int j = 0; j < dummy_array[i].length; j++) {
+                for (int i = 0; i < 3; i++) {
+                    for (int j = 0; j < 3; j++) {
                     try {
                         dummy_array[i][j] = scanner.nextInt();
                     } catch (Exception e) {
