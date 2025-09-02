@@ -3,6 +3,8 @@
 // sdev200
 // MODULE 1, ASSIGNMENT 4
 
+// create a class RegularPolygon with three constructors, and methods to calculate perimeter and area
+
 package module_1_assignment_4;
 
 public class PolygonGenerator {
