@@ -35,9 +35,4 @@ public abstract class GeometricObject {
 
     /**Abstract method getPerimeter*/
     public abstract double getPerimeter();
-    
-    public int compareTo(GeometricObject o) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
-    }
 }

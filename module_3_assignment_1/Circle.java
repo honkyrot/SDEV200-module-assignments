@@ -1,3 +1,8 @@
+// 9/14/2025
+// hong rot
+// sdev200
+// MODULE 3, ASSIGNMENT 1
+
 package module_3_assignment_1;
 
 import module_2_assignment_2.GeometricObject;
@@ -5,7 +10,7 @@ import module_2_assignment_2.GeometricObject;
 public class Circle extends GeometricObject implements Comparable<Circle> {
 
     public double radius;
-//Sets Circle class to extend GeometricObject and enables comparable interface 
+    //Sets Circle class to extend GeometricObject and enables comparable interface 
     
     @Override
     public boolean equals(Object obj) {
@@ -18,12 +23,12 @@ public class Circle extends GeometricObject implements Comparable<Circle> {
         Circle otherCircle = (Circle) obj;
         return Double.compare(otherCircle.radius, radius) == 0;
     }
-//Overrides equals method and uses logic to compare circle objects based on their radius
+    //Overrides equals method and uses logic to compare circle objects based on their radius
 
     @Override
     public int compareTo(Circle otherCircle) {
         return Double.compare(this.radius, otherCircle.radius);
-    }
+    }   
 
     // area
     public double getArea() {
