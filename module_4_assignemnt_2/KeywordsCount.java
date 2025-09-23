@@ -3,7 +3,7 @@
 // sdev200
 // MODULE 4, ASSIGNMENT 2
 
-package moudle_4_assignemnt_2;
+package module_4_assignemnt_2;
 
 import java.io.File;
 import java.util.Arrays;
