@@ -2,6 +2,8 @@
 // hong rot, sdev200
 // MODULE 1, ASSIGNMENT 1
 
+package module_1_assignment_1;
+
 import java.text.DecimalFormat;
 
 public class FeetToMeterCoversion {
