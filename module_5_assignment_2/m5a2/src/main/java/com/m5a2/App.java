@@ -1,6 +1,6 @@
 // 10/2/2025
 // hong rot
-// sdev200  1
+// sdev200
 // MODULE 5, ASSIGNMENT 2
 
 // interactive button that changes color on click
